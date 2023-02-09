@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.example.config.read.Employee",
+      "sourceType": "com.example.config.read.Employee"
+    }
+  ],
+  "properties": [
+    {
+      "name": "empid",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.read.Employee"
+    },
+    {
+      "name": "name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.read.Employee"
+    }
+  ],
+  "hints": []
+}
