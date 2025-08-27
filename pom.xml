@@ -49,11 +49,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.javainuse</groupId>
-			<artifactId>boot-azure-apps</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -64,18 +59,16 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-shade-plugin</artifactId>
-				<version>3.4.1</version>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>shade</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-shade-plugin</artifactId>
+      <version>3.4.1</version>
+      <executions>
+        <execution>
+          <phase>package</phase>
+          <goals><goal>shade</goal></goals>
+        </execution>
+      </executions>
+    </plugin>
 
 			
 		</plugins>
